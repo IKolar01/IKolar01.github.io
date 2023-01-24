@@ -29,7 +29,8 @@ a:visited{
     color:red
 }
 a:hover{color:hotpink;
-text-decoration: underline solid brown
+text-decoration: underline solid brown;
+background-color:rgb(54, 243, 180)
 }
 footer{
     padding-top: 10em;
