@@ -17,8 +17,8 @@ p{
     text-justify: inter-word;
     text-align: justify;
     column-count: 2;
-    font-size: 200%;
-    column-gap: 10%;
+    font-size: 150%;
+    column-gap: 5%;
     font-family: quintessential;
 }
 
@@ -46,4 +46,5 @@ img[src*="montyp3"]{
 }
 .footer{
     width: 16%;
+    
 }
