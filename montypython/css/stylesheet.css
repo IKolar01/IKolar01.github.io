@@ -1,0 +1,49 @@
+*{
+    background-color: rgb(250, 234, 214);
+    background-image: url(../images/paper.jpg);
+    background-blend-mode: color-burn;
+}
+h1{
+    font-family: blonde-fraktur;
+    font-size: 5000%;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: quintessential;
+    font-size: 500%;
+}
+p{
+    text-justify: inter-word;
+    text-align: justify;
+    column-count: 2;
+    font-size: 200%;
+    column-gap: 10%;
+    font-family: quintessential;
+}
+
+img[src*="montyp1"]{
+    width: 75%;
+}
+img[src*="montyp2"]{
+    width: 75%;
+}
+img[src*="montyp3"]{
+    width:75%
+
+}
+.gray{
+    filter: grayscale(1);
+}
+.center{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100%;
+}
+.head{
+    margin-top: 10%;
+}
+.footer{
+    width: 16%;
+}

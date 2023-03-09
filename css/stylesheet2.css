@@ -1,11 +1,52 @@
-body{
-    background-color: purple;
+*{
+    background-color: rgb(145, 230, 236);
+    animation-duration: 1s;
+    animation-name: fadein;
 }
 
-h2 {
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5000%;
+    text-decoration: underline wavy rgb(187, 255, 0);
+}
+@keyframes fadein {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
 
+#color{
+    color: black;
+transition: color 1s;
+}
+
+#color:hover{
+color: rgb(134, 12, 108);
+
+}
+
+p{
+font-family: 'josefin sans',sans-serif;
+font-size: 100%;
+}
+li{
+font-size: 200%;
+}
+a:link{
+    color: rgb(9, 119, 163);
+}
+a:hover{
     color: red;
 }
-p{
-    font-family: 'Josefin Sans', sans-serif;
+a:visited{
+    color: rgb(80, 205, 255);
+}
+footer{
+    
+    clear: left;
+    width: 100%;
+    padding-top: 10%;
+    background-image:url(images/bingus.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
 }
