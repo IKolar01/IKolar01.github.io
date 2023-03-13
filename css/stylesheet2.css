@@ -35,7 +35,7 @@ a:link{
     color: rgb(9, 119, 163);
 }
 a:hover{
-    color: red;
+    color: rgb(123, 255, 0);
 }
 a:visited{
     color: rgb(80, 205, 255);
@@ -45,7 +45,7 @@ footer{
     clear: left;
     width: 100%;
     padding-top: 10%;
-    background-image:url(images/bingus.jpg);
+    background-image:url(../images/bingus.jpg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: 100% 100%;
