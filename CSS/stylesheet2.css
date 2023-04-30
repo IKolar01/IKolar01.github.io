@@ -1,18 +1,24 @@
+html {
+	scroll-behavior: smooth; /* Add this line to enable smooth scrolling */
+  }
 .hero {
     display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 2.5rem;
+    align-items: right;
+    justify-content: right;
+	flex-direction: column-reverse;
     margin: auto;
-    margin-top: 10em;
+    margin-top: 0%;
+	margin-bottom: 15%;
+	width: 30%;
+	margin-left: 0%;
   }
 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 800%;
+    font-size: 1500%;
     color: rgb(255, 88, 47);
 }
-*{
+body{
     background-color: rgb(0, 6, 56);
 }
 .portfolio-container {
@@ -55,9 +61,43 @@ h1{
 	font-size: 300%;
 	font-weight: bold;
 	text-align: left;
+	margin-left: 5%;
 }
 
 .portfolio-item:hover .overlay {
 	opacity: 1;
 }
+
+.header {
+position: fixed;
+  text-align: center;
+  background:  RGB(43, 188, 180);
+  color: white;
+  font-size: 200%;
+  display: flex;
+  z-index: 9999;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 7%;
+  margin: 0%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'poppins', sans-serif;
+}
+li{
+	list-style: none;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+  a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  a:hover {
+
+	color:rgb(255, 88, 47) ;
+  }
 
