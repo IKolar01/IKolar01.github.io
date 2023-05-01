@@ -28,6 +28,7 @@ body {
   
   .text-wrapper {
     flex-basis: 45%;
+    margin-top: 5%;
   }
   
 
@@ -39,8 +40,8 @@ body {
   .header {
     position: fixed;
       text-align: center;
-      background:  RGB(43, 188, 180);
-      color: white;
+      background-color:rgb(255, 88, 47) ;
+      /* color: white; */
       font-size: 200%;
       display: flex;
       z-index: 9999;
@@ -53,23 +54,18 @@ body {
       align-items: center;
       font-family: 'poppins', sans-serif;
     }
-    li{
+    .header li{
         list-style: none;
         margin-left: 10%;
         margin-right: 10%;
     
     }
-      a {
+      .header a {
         color: #fff;
         text-decoration: none;
       }
       
-      a:hover {
+      .header a:hover {
     
         color:rgb(255, 88, 47) ;
-      }
-      H1{
-        color: rgb(255, 88, 47);
-        font-size: 36px;
-        margin-bottom: 20px;
       }

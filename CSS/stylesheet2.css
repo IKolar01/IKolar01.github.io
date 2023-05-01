@@ -1,30 +1,104 @@
 html {
 	scroll-behavior: smooth; /* Add this line to enable smooth scrolling */
-  }
+}
+
+nav {
+	background-color:rgb(255, 88, 47) ;
+}
+
 .hero {
+	min-height: 100vh;
     display: flex;
-    align-items: right;
-    justify-content: right;
-	flex-direction: column-reverse;
-    margin: auto;
-    margin-top: 0%;
-	margin-bottom: 15%;
-	width: 30%;
-	margin-left: 0%;
-  }
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    font-size: 1500%;
+    align-items: center;
+    justify-content: center;
+	flex-direction: column;
+}
+
+.hero h1{
+    font-weight: 800;
+    font-size: 10rem;
+    color: black;
+	text-decoration: underline, wavy,rgb(255, 88, 47);
+	text-align: center;
+	margin-bottom: 0rem;
+}
+
+	.hero h1 span {
     color: rgb(255, 88, 47);
 }
+
+.hero p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.6;
+	color: black;
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+.hero a {
+	background-color: rgb(255, 88, 47);
+	color: white;
+	font-size: 1.4rem;
+	font-weight: 600;
+	/* font-style: italic; */
+	padding: .75rem 1.5rem;
+	border-radius: 12px;
+	transition: .3s ease-in-out all;
+}
+
+.hero a:hover {
+	background-color: black;
+	color: white;
+}
+
 body{
-    background-color: rgb(0, 6, 56);
+    background-color: white;
+	font-family: "itc-avant-garde-gothic-pro", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 }
 .portfolio-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.about {
+	min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-header {
+	flex-basis: 50%;
+}
+
+.about-header h2{
+    font-weight: 800;
+    font-size: 10rem;
+    color: black;
+	text-decoration: underline, wavy,rgb(255, 88, 47);
+	text-align: center;
+	margin-bottom: 0rem;
+}
+
+.about h2 span {
+    color: rgb(255, 88, 47);
+}
+
+.about-paragraph {
+	flex-basis: 50%;
+}
+
+.about-paragraph p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.6;
+	color: black;
+	text-align: center;
+	margin-bottom: 4rem;
 }
 
 .portfolio-item {
@@ -69,10 +143,10 @@ body{
 }
 
 .header {
-position: fixed;
-  text-align: center;
-  background:  RGB(43, 188, 180);
-  color: white;
+/*position: fixed;*/
+  text-align: left;
+  /*background:  RGB(43, 188, 180);*/
+  background-color:rgb(255, 88, 47) ;
   font-size: 200%;
   display: flex;
   z-index: 9999;
@@ -81,9 +155,10 @@ position: fixed;
   right: 0%;
   height: 7%;
   margin: 0%;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   font-family: 'poppins', sans-serif;
+  margin-top: 2%;
 }
 li{
 	list-style: none;
