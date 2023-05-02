@@ -1,0 +1,262 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+}
+
+.btn-primary {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+}
+
+/* Nav */
+nav {
+    padding: 2rem 1rem;
+    background-color: orangered;
+}
+
+.nav-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+
+}
+
+.nav-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.nav-linkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 1rem;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Header */
+.header {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box h1 {
+    color: black;
+    font-size: 10rem;
+    font-weight: 900;
+    letter-spacing: -2pt;
+}
+
+.header-box h1 span {
+    color: orangered;
+    font-style: italic;
+    /* margin-left: -3rem; */
+}
+
+.header-box p {
+    color: black;
+    font-size: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+
+.header-button {
+    /* animation: bounce 1s ease-in-out infinite; */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Gallery */
+.gallery {
+}
+
+.gallery-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-item {
+    flex-basis: 33.33333%;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: .7s ease-in-out all ;
+}
+
+.gallery-item img:hover {
+    opacity: .5;
+}
+
+.gallery-item a {
+
+}
+
+/* Project */
+.project {
+    padding: 4rem 4rem 2rem 4rem;
+}
+
+.project-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.project-header h2 {
+    color: black;
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.project-header h2 span {
+    color: orangered;
+}
+
+.project-header p {
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.project-image-box {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-image-box img {
+    width: 48%;
+    height: auto;
+    border-radius: 4px;
+    /* margin: 2rem; */
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+footer {
+    background-color: orangered;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* About */
+.about {
+    padding: 8rem 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about-textbox {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: 0 2rem;
+}
+
+.about-textbox h2 {
+    color: black;
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.about-textbox h2 span {
+    color: orangered;
+}
+
+.about-textbox p {
+    color: black;
+    font-size: 1rem;
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 4rem;
+}
+
+.about-image-box {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-image-box img {
+    width: 100%;
+    border-radius: 4px;
+}
+
