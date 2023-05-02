@@ -99,7 +99,7 @@ nav {
 
 
 .header-button {
-    /* animation: bounce 1s ease-in-out infinite; */
+     animation: bounce 1s ease-in-out infinite; 
 }
 
 @keyframes bounce {
