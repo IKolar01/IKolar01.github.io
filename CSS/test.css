@@ -249,10 +249,11 @@ h3 {
 }
 
 .about-image-box {
-    flex-basis: 50%;
+    flex-basis: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .about-image-box img {
