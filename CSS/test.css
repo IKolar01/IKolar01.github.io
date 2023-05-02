@@ -173,10 +173,11 @@ nav {
 .project-header p {
     color: black;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
+
 
 .project-image-box {
     display: flex;
@@ -225,8 +226,26 @@ h3 {
     justify-content: center;
     align-items: left;
     padding: 0 2rem;
+    list-style: none;
+}
+.about-links {
+    font-size: 1.5rem;
+    color: black;
+    line-height: 2.5rem;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    list-style: none;
 }
 
+
+
+.about-links a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
 .about-textbox h2 {
     color: black;
     font-size: 5rem;
