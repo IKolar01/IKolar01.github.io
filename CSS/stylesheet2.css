@@ -1,12 +1,42 @@
 html {
-	scroll-behavior: smooth; /* Add this line to enable smooth scrolling */
+	scroll-behavior: smooth;
 }
 
 nav {
 	background-color:rgb(255, 88, 47) ;
 }
 
-.hero {
+.header {
+/*position: fixed;*/
+/*background:  RGB(43, 188, 180);*/
+	height: 4rem;
+	font-size: 200%;
+	display: flex;
+	z-index: 9999;
+	margin: 0%;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	
+	
+	}
+	li{
+	list-style: none;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	}
+	a {
+	color: #fff;
+	text-decoration: none;
+	}
+	  
+	a:hover {
+	
+	color:rgb(0,0,0) ;
+	}
+
+	.hero {
 	min-height: 100vh;
     display: flex;
     align-items: center;
@@ -18,13 +48,14 @@ nav {
     font-weight: 800;
     font-size: 10rem;
     color: black;
-	text-decoration: underline, wavy,rgb(255, 88, 47);
 	text-align: center;
 	margin-bottom: 0rem;
+	
 }
 
 	.hero h1 span {
     color: rgb(255, 88, 47);
+	font-style: italic;
 }
 
 .hero p {
@@ -41,6 +72,7 @@ nav {
 	color: white;
 	font-size: 1.4rem;
 	font-weight: 600;
+	justify-content: center;
 	/* font-style: italic; */
 	padding: .75rem 1.5rem;
 	border-radius: 12px;
@@ -64,24 +96,71 @@ body{
 	justify-content: center;
 }
 
+
+
+.portfolio-item {
+	position: relative;
+	
+	width: 33%; /* Set a fixed width for the portfolio item */
+	height: auto; /* Set a fixed height for the portfolio item */
+	overflow: hidden; /* Hide any overflow from the image */
+  }
+  
+  .portfolio-item img {
+	height: 100%;
+	width: 100%; /* Set the height of the image to fill the container */
+	object-fit:cover; /* Scale the image while preserving its aspect ratio */
+  }
+
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: rgba(0, 6, 56, 0);
+	color:rgb(255, 88, 47) ;
+	opacity: 0;
+	transition: opacity 0.5s;
+	display: flex;
+	align-items:baseline;
+	justify-content: left;
+}
+
+.overlay h3 {
+	font-family: "itc-avant-garde-gothic-pro", sans-serif;
+	font-size: 300%;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 5%;
+}
+
+.portfolio-item:hover .overlay {
+	opacity: 1;
+}
+
+
 .about {
 	min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+	text-align: center;
 }
 
 .about-header {
 	flex-basis: 50%;
+	
 }
 
 .about-header h2{
     font-weight: 800;
     font-size: 10rem;
     color: black;
-	text-decoration: underline, wavy,rgb(255, 88, 47);
 	text-align: center;
 	margin-bottom: 0rem;
+
 }
 
 .about h2 span {
@@ -99,98 +178,23 @@ body{
 	color: black;
 	text-align: center;
 	margin-bottom: 4rem;
-}
-
-.portfolio-item {
+	width: 75%;
+	left: 12.5%;
 	position: relative;
-
-	width: 33%; /* Set a fixed width for the portfolio item */
-	height: auto; /* Set a fixed height for the portfolio item */
-	overflow: hidden; /* Hide any overflow from the image */
-  }
-  
-  .portfolio-item img {
-	height: 100%;
-	width: 100%; /* Set the height of the image to fill the container */
-	object-fit:cover; /* Scale the image while preserving its aspect ratio */
-  }
-
-.overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-color: rgba(0, 6, 56,.5);
-	color: white;
-	opacity: 0;
-	transition: opacity 0.5s;
-	display: flex;
-	align-items:baseline;
-	justify-content: left;
 }
-
-.overlay h3 {
-	font-family: 'Poppins', sans-serif;
-	font-size: 300%;
-	font-weight: bold;
-	text-align: left;
-	margin-left: 5%;
-}
-
-.portfolio-item:hover .overlay {
-	opacity: 1;
-}
-
-.header {
-/*position: fixed;*/
-  text-align: left;
-  /*background:  RGB(43, 188, 180);*/
-  background-color:rgb(255, 88, 47) ;
-  font-size: 200%;
-  display: flex;
-  z-index: 9999;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  height: 7%;
-  margin: 0%;
-  justify-content: left;
-  align-items: center;
-  font-family: 'poppins', sans-serif;
-  margin-top: 2%;
-}
-li{
-	list-style: none;
-	margin-left: 10%;
-	margin-right: 10%;
-
-}
-  a {
-	color: #fff;
-	text-decoration: none;
-  }
-  
-  a:hover {
-
-	color:rgb(255, 88, 47) ;
-  }
-
 h2{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-	font-size: 1000%;
-	color:rgb(255, 88, 47) ;
-	width: 30%;
-	margin-bottom: 0%;
+
+font-weight: 600;
+font-size: 1000%;
+color:rgb(255, 88, 47) ;
+
+margin-bottom: 0%;
 }
 P{
-	display: flex;
-	font-family: 'poppins',sans-serif;
-	color: #fff;
-	width:50%;
-	font-size: 18px;
+display: flex;
+font-family: "itc-avant-garde-gothic-pro", sans-serif;
+font-size: 1.4rem;
 }
 .paragraph{
-	margin-bottom: 10%;
+margin-bottom: 10%;
 }
