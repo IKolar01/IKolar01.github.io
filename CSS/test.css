@@ -125,10 +125,14 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5%;
 }
 
 .gallery-item {
-    flex-basis: 33.33333%;
+    /*flex-basis: 33.33333%;*/
+    width: 30vw;
+    height: 30vw;
+    
 }
 
 .gallery-item img {
@@ -136,6 +140,7 @@ nav {
     height: 100%;
     opacity: 1;
     transition: .4s ease-in-out all ;
+    object-fit: cover;
 }
 
 .gallery-item img:hover {
@@ -171,10 +176,11 @@ nav {
 
 .project-header p {
     color: black;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 300;
     text-align: left;
     margin-bottom: 2rem;
+    width: 50%;
 }
 
 
@@ -184,15 +190,21 @@ nav {
     /* flex-direction: column; */
     justify-content: space-between;
     align-items: center;
+    width: 70%;
+    margin:auto
 }
 
 .project-image-box img {
-    width: 48%;
-    height: 48%;
+    width: 50%;
     height: auto;
     border-radius: 4px;
     /* margin: 2rem; */
     margin-bottom: 2rem;
+    object-fit: cover;
+}
+.project-header a{
+    color: black;
+
 }
 
 /* Footer */
@@ -244,7 +256,8 @@ h3 {
 
 .about-links a{
     color: rgb(0, 0, 0);
-    text-decoration: none;
+
+
 }
 .about-textbox h2 {
     color: black;
