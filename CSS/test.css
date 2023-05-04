@@ -160,6 +160,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    margin-left: 17%;
 }
 
 .project-header h2 {
@@ -192,14 +193,16 @@ nav {
     align-items: center;
     width: 70%;
     margin:auto
+    
 }
 
+
 .project-image-box img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 4px;
     /* margin: 2rem; */
-    margin-bottom: 2rem;
+    margin: 3%;
     object-fit: cover;
 }
 .project-header a{
