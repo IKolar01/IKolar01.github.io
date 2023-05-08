@@ -193,12 +193,20 @@ nav {
     align-items: center;
     width: 70%;
     margin:auto
-    
+}
+
+.project-image-box p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left:5rem ;
+    width: 50%;
 }
 
 
 .project-image-box img {
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 4px;
     /* margin: 2rem; */
