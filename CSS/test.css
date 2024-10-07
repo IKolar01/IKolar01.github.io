@@ -14,7 +14,7 @@ body {
 
 .btn-primary {
     text-decoration: none;
-    background-color: orangered;
+    background-color: rgb(0, 173, 196);
     color: white;
     padding: 1rem 2rem;
     border-radius: 8px;
@@ -24,7 +24,7 @@ body {
 /* Nav */
 nav {
     padding: 2rem 1rem;
-    background-color: orangered;
+    background-color: rgb(0, 173, 196);
 }
 
 .nav-box {
@@ -85,7 +85,7 @@ nav {
 }
 
 .header-box h1 span {
-    color: orangered;
+    color: rgb(0, 173, 196);
     font-style: italic;
     /* margin-left: -3rem; */
 }
@@ -172,7 +172,7 @@ nav {
 }
 
 .project-header h2 span {
-    color: orangered;
+    color: rgb(0, 173, 196);
 }
 
 .project-header p {
@@ -221,7 +221,7 @@ nav {
 
 /* Footer */
 footer {
-    background-color: orangered;
+    background-color: rgb(0, 173, 196);
     padding: 1rem 0;
     display: flex;
     justify-content: center;
@@ -280,7 +280,7 @@ h3 {
 }
 
 .about-textbox h2 span {
-    color: orangered;
+    color: rgb(0, 173, 196);
 }
 
 .about-textbox p {
