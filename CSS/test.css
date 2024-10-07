@@ -200,8 +200,9 @@ nav {
     font-size: 1.3rem;
     font-weight: 300;
     text-align: left;
-    margin-left:5rem ;
-    width: 50%;
+    margin: left 3%; ;
+    width: 85%;
+    line-height: 120%;
 }
 
 
