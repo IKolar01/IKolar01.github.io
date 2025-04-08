@@ -363,37 +363,53 @@ footer h3{
         font-size: 4vw;
         padding-bottom: 5vw;
     }
-    .gallery-box{display: flex;
-    
+    .gallery-box{
+        display: flex;
     }
     .gallery-item{
         width: 80vw;
         height: 80vw;
     }
-    .gallery-box2{display: flex;
-    
+    .gallery-box2{
+        display: flex;
     }
     .gallery-item2{
         width: 80vw;
         height: 80vw;
     }
-}
-
-@media only screen and (max-width: 1200px){
-    .header{
-        height: 30vw;
-    }
-
-    .header h1{
-        font-size: 15vw;
-    }
-
-    .header h2{
-        font-size: 4vw;
-        padding-bottom: 5vw;
-    }
-
-    .gallery-item2 .description{
-        font-size: 15px;
+    .about-links a{
+        font-size: 1rem;
     }
 }
+
+    @media only screen and (max-width: 1200px){
+        .header{
+            height: 30vw;
+        }
+
+        .header h1{
+            font-size: 15vw;
+        }
+
+        .header h2{
+            font-size: 4vw;
+            padding-bottom: 5vw;
+        }
+
+        .gallery-item2 .description{
+            font-size: 15px;
+        }
+
+        .about-textbox{
+            text-align: center;
+        }
+        .about{
+            display: block;
+        }
+        .about-image-box{
+            padding-top: 5vw;
+            width: 50%;
+            padding-left: 25%;
+        }
+
+    }
