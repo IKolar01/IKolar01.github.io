@@ -45,7 +45,7 @@ nav{
 
 /* body */
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 15);
     /* background-image: url(/Documents/Other/Circle.png); */
     background-size: 10rem ;
     background-blend-mode: overlay;
@@ -113,7 +113,7 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(255, 255, 255, 0.6);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -168,7 +168,7 @@ body{
 .header h1{
     font-family: Titillium Web;
     font-size: 8vw;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: lighter ;
 }
 
@@ -211,7 +211,7 @@ footer h3{
 }
 
 .project-header h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 5rem;
     font-weight: lighter;
     text-align: left;
@@ -225,7 +225,7 @@ footer h3{
 }
 
 .project-header p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     font-weight: 300;
     text-align: left;
@@ -245,7 +245,7 @@ footer h3{
 }
 
 .project-image-box p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.3rem;
     font-weight: 300;
     text-align: left;
@@ -264,7 +264,7 @@ footer h3{
     object-fit: cover;
 }
 .project-header a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -287,7 +287,7 @@ footer h3{
 }
 .about-links {
     font-size: 1.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     line-height: 2.5rem;
     flex-basis: 50%;
     display: flex;
@@ -300,12 +300,12 @@ footer h3{
 
 
 .about-links a{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 
 
 }
 .about-textbox h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 5rem;
     font-weight: lighter;
     text-align: left;
@@ -320,7 +320,7 @@ footer h3{
 }
 
 .about-textbox p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     line-height: 1.8;
     font-weight: 400;
@@ -340,7 +340,6 @@ footer h3{
     width: 100%;
     border-radius: 4px;
 }
-
 
 
 @media only screen and (max-width: 620px){
